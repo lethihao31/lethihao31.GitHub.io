@@ -6,12 +6,9 @@
 #allpage{
     width: 100%;
     background: grey;
-<<<<<<< HEAD
     height: 850px;
-    
-=======
-    height: 1000px;
->>>>>>> 28d65750d0e74d959f74da303bf0dc2b45166214
+    height: 800px;
+    overflow: auto;
 }
 #header{
     width: 100%;
@@ -19,22 +16,11 @@
     background: pink;
     border: 1px solid white;
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 28d65750d0e74d959f74da303bf0dc2b45166214
 #content{
     width: 99%;
     height: 630px;
     margin: 0 0.5%;
 }
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 28d65750d0e74d959f74da303bf0dc2b45166214
 #left{
     width: 60%;
     height: 630px;
@@ -72,18 +58,15 @@
     background: rgb(235, 155, 7);
     margin-top: 1.25%;
     border: 1px solid white;
+    float: left;
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 28d65750d0e74d959f74da303bf0dc2b45166214
 #leftbotright{
-    float: right;
-    width: 49%;
+    float: left;
+    width: 47%;
     background: rgb(224, 36, 215);
-    height: 342px;
+    height: 99%;
     border: 1px solid white;
+    margin-left: 10px;
 }
 
 
@@ -127,23 +110,26 @@
     margin: 1% 0;
 }
 #rightbotleft{
-    width: 32.5%;
+    width: 31.5%;
     height: 330px;
     background: rgb(15, 105, 93);
     float: left;
+    border: 1px solid white;
 }
 #rightbotmid{
-    width: 32.5%;
+    width: 31.5%;
     height: 330px;
     background: red;
     float: left;
-    margin: 0 1.25%;
+    border: 1px solid white;
+    margin-left: 9px;
 }
 #rightbotright{
-    width: 32.5%;
+    width: 31.5%;
     height: 330px;
     background: rgb(15, 105, 93);
     float: right;
+    border: 1px solid white;
 
 }
 #rightfooter{
@@ -155,8 +141,10 @@
 }
 #footer{
     width: 99%;
-    margin: -0.2% 0.5%;
+    margin:5px auto;
     background: black;
     height: 100px;
+    border: 1px solid white;
+    margin-top: -15px;
 
 }
