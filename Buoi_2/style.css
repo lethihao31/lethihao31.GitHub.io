@@ -6,26 +6,35 @@
 #allpage{
     width: 100%;
     background: grey;
+<<<<<<< HEAD
     height: 850px;
     
+=======
+    height: 1000px;
+>>>>>>> 28d65750d0e74d959f74da303bf0dc2b45166214
 }
-
 #header{
     width: 100%;
     height: 100px;
     background: pink;
     border: 1px solid white;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 28d65750d0e74d959f74da303bf0dc2b45166214
 #content{
     width: 99%;
     height: 630px;
     margin: 0 0.5%;
 }
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 28d65750d0e74d959f74da303bf0dc2b45166214
 #left{
     width: 60%;
     height: 630px;
@@ -64,8 +73,11 @@
     margin-top: 1.25%;
     border: 1px solid white;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 28d65750d0e74d959f74da303bf0dc2b45166214
 #leftbotright{
     float: right;
     width: 49%;
