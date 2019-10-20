@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.all{
+    width:960px;
+    height: 500px;
+    background: rgb(230, 222, 222);
+    margin: auto;
+    
+}
+.menu{
+    background:black;
+    display: flex;
+    justify-content: left;
+}
+.menu li{
+    display: inline-block;
+    padding: 10px 20px;
+    color:white;
+    cursor: pointer;
+}
+.menu li:hover{
+    background: red;
+}
+.hoctap{
+    position: relative;
+}
+.hoctap .hoctap1{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.hoctap:hover .hoctap1{
+    display: block;
+}
+.hoctap .hoctap1 li{
+    color:black;
+}
+#hoctap1 li:hover{
+    background:white;
+}
+.hoctap1 li{
+    background:white;
+    width: 100px;
+
+}
+.web{
+    position: relative;
+}
+.web .menu1{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 110px;
+    margin-top: -28px;
+}
+.web:hover .menu1{
+    display: block;
+}
+.web .menu1 li{
+    background:white;
+    color: black;
+}
+.menu1 li:hover{
+    background: red;
+}
+.amnhac:hover .sub{
+    display: block;
+}
+.amnhac .sub{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: -20px;
+   
+}
+
+.amnhac{
+    position: relative;
+}
+.amnhac li{
+    background:white;
+    width: 100px;
+}
+.amnhac:hover li{
+    color:black;
+}
