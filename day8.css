@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+    background: rgb(245,245,245);
+}
+.header{
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.header span{
+    background-color: black;
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding-left:8px ;
+    padding-right: 8px;
+}
+.header h3{
+    font-size: 35px;
+}
+.header p{
+    margin: 15px 0px;
+}
+
+h1, h2, h3,h5,h6 {
+    margin: 10px 0;
+}
+.blog{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),
+    0 4px 20px 0 rgba(0,0,0,0.19);
+    margin: 16px;
+    background-color:white;
+}
+img{
+    width: 100%;
+}
+.text{
+    padding:0.15px 16px;
+}
+h3{
+    font-size: 24px;
+}
+h5{
+    font-size: 18px;
+}
+.text p{
+    float: right;
+    margin-top:20px
+}
+.text button{
+    margin: 15px 0px;
+    border: 1px solid #cccccc;
+    padding: 12px 24px;
+    background-color: #ffffff;
+}
+.text p span {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding-left: 8px;
+    padding-right: 8px;
+   
+}
+.advertise {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    margin: 16px;
+    background-color: #ffffff;
+}
+.advertise img{
+    float: left;
+    margin-right: 10px;
+}
+h4 {
+    font-size: 20px;
+    background-color: #e7e4e4;
+    padding: 16px;
+    font-weight: 400;
+}
+.advertise ul li{
+    list-style-type: none;
+    padding:16px;
+    border-bottom:1px solid #ddd ;
+}
+.advertise li:hover{
+    background-color: #e7e4e4;
+}
+.tags p{
+    padding: 10px 16px;
+}
+.tags span{
+    text-align: center;
+    background-color: rgb(219,219,221);
+    
+    display: inline-block;
+    padding: 4px;
+    margin-bottom: 16px;
+}
+footer {
+    margin-top: 16px;
+    background-color: #616161;
+    padding: 32px 16px;
+}
+footer button{
+    background-color: black;
+    color: white;
+    border:none;
+    margin-bottom: 10px;
+    padding: 12px 24px;
+}
+footer:hover .next{
+    background-color: floralwhite;
+    color:black;
+}
+a{
+    color:inherit;
+    
+}
+footer:hover .next{
+    background-color: white;
+    color:black
+}
+.content,
+.menu{
+    box-sizing: border-box;
+}
+@media screen and (min-width:800px){
+
+    .responsive:before, .responsive:after {
+        display: table;
+        clear: both;
+        content:"";
+         
+    }
+
+    .responsive{
+        max-width: 100%;
+    }
+    .content{
+        width:63.5%;
+        float:left;
+    }
+    .menu{
+        width:36%;
+        float: left;
+    }
+
+}
+@media all and (max-width:1024px){
+    
+}
